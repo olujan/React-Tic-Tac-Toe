@@ -1,7 +1,7 @@
 function BtnAction(props){
     return (
         <button 
-            className="btn btn-success"
+            className={props.class}
             onClick={props.onClick}
         >
             {props.value}       
